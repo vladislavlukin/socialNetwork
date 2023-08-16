@@ -1,0 +1,17 @@
+spring:
+  services:
+    user:
+      url:
+    communications:
+      url:
+  cors:
+    origin:
+  servlet:
+    multipart:
+      max-file-size:
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
